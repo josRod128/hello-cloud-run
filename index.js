@@ -10,7 +10,8 @@ app.get('/', (req, res) => {
   res.json({
     date: today,
     up: `${(Date.now() - dateUp)/1000} seg.`,
-    repo: 'https://github.com/josRod128/hello-cloud-run'
+    repo: 'https://github.com/josRod128/hello-cloud-run',
+    text: 'Funciono el push'
   });
 });
 
